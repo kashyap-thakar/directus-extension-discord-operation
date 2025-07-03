@@ -1,0 +1,47 @@
+{
+  "name": "directus-extension-discord-operation",
+  "version": "1.0.0",
+  "description": "Send text or rich embed messages to Discord channels/threads",
+  "author": {
+    "name": "Kashyap Thaker",
+    "url": "https://github.com/kashyap-thakar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kashyap-thakar/directus-extension-discord-operation.git"
+  },
+  "keywords": [
+    "directus",
+    "directus-extension",
+    "directus-custom-operation",
+    "discord",
+    "webhook",
+    "embed"
+  ],
+  "type": "module",
+	"files": [
+		"dist"
+	],
+	"directus:extension": {
+		"type": "operation",
+		"path": {
+			"app": "dist/app.js",
+			"api": "dist/api.js"
+		},
+		"source": {
+			"app": "src/app.js",
+			"api": "src/api.js"
+		},
+		"host": "^10.10.0"
+	},
+	"scripts": {
+		"build": "directus-extension build",
+		"dev": "directus-extension build -w --no-minify",
+		"link": "directus-extension link",
+		"validate": "directus-extension validate"
+	},
+	"devDependencies": {
+		"@directus/extensions-sdk": "14.0.0",
+		"vue": "^3.5.17"
+	}
+} 

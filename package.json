@@ -1,7 +1,9 @@
 {
   "name": "directus-extension-discord-operation",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Send text or rich embed messages to Discord channels/threads",
+  "icon": "chat_bubble",
+  "license": "MIT",
   "author": {
     "name": "Kashyap Thaker",
     "url": "https://github.com/kashyap-thakar"
@@ -14,6 +16,7 @@
     "directus",
     "directus-extension",
     "directus-custom-operation",
+    "directus-operation",
     "discord",
     "webhook",
     "embed"
@@ -32,7 +35,11 @@
 			"app": "src/app.js",
 			"api": "src/api.js"
 		},
-		"host": "^10.10.0"
+		"host": "^10.10.0",
+		"entries": {
+			"app": "src/app.js",
+			"api": "src/api.js"
+		}
 	},
 	"scripts": {
 		"build": "directus-extension build",

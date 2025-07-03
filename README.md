@@ -6,6 +6,31 @@ A powerful Directus operation extension that enables sending text messages and r
 
 - GitHub: [directus-extension-discord-operation](https://github.com/kashyap-thakar/directus-extension-discord-operation)
 
+## Screenshots
+
+Here are some screenshots showing the extension in action:
+
+1. Operation in Flow Builder:
+   ![Operation Listing](images/operation-listing.png)
+
+2. Message Type Selection:
+   ![Message Type](images/message-type.png)
+
+3. Simple Message Configuration:
+   ![Simple Configuration](images/simple-example.png)
+
+4. Simple Message Example:
+   ![Simple Message Example](images/simple-message-example.png)
+
+5. Embed Templates:
+   ![Embed Templates](images/embed-templates.png)
+
+6. Embed Message Configuration:
+   ![Embed Configuration](images/embed-example.png)
+
+7. Embed Message Example:
+   ![Embed Message Example](images/embed-message-example.png)
+
 ## Features
 
 - **Simple Text Messages**: Send plain text messages to any Discord channel or thread

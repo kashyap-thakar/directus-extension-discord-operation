@@ -1,6 +1,6 @@
 {
   "name": "directus-extension-discord-operation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Send text or rich embed messages to Discord channels/threads",
   "author": {
     "name": "Kashyap Thaker",
